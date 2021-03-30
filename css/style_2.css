@@ -1,0 +1,118 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+
+
+* { margin: 0; padding: 0; }
+body { font: 14px/1.4 Georgia, serif; font-family: 'Open Sans', sans-serif; }
+#page-wrap { width: 700px; margin: 0 auto; }
+#page-wrap #identity {text-align: left}
+textarea { border: 0; font-size: 14px; font-family: 'Open Sans', sans-serif; overflow:visible; resize: none; }
+table { border-collapse: collapse; }
+table td, table th { border: 1px solid black; padding: 5px; }
+
+#header { height: 30px; width: 100%; margin: 15px 0 0 0 ; background: #222; text-align: center; color: white; font: bold 15px Helvetica, Sans-Serif; text-decoration: uppercase; letter-spacing: 20px; padding: 2px 0px; }
+#top_header { width: 250px; height: 30px; float: right; margin-top: 25px;}
+
+
+
+input {
+	background-color: transparent;
+	border: 0px solid;
+	text-align: left;
+}
+
+
+
+.element > { text-decoration:none; color:inherit; }
+
+#name  {
+	width: 250px;
+	height: 18px;
+	float: left;
+	margin-top: 15px;
+	font-size:14px;
+}
+#address { width: 250px; height: 18px; float: right; margin-top: 5px; font-size:14px; }
+#region { width: 250px; height: 18px; float: right; margin-top: 1px; font-size:14px;  }
+#phone { width: 250px; height: 18px; float: right; margin-top: 15px; font-size:14px; }
+#email { width: 250px; height: 18px; float: right; margin-top: 5px; font-size:14px; }
+#invoice_number { width: 100px; height: 18px; float: right; text-align:right;}
+
+#date { width: 180px; height: 18px; float: right; text-align:right;}
+.randomNumber { width: 180px; height: 18px; float: right; text-align:right;}
+#notes { width: 690px; height: 20px; float:inherit; margin-top: 0px; font-size:18px; }
+.info {
+	font-size:11.5px;
+	text-align:center;
+	margin:0;
+	height: 20px;
+}
+
+#customer { overflow: hidden; margin-top: 15px; }
+
+#logo { text-align: right; float: left; position: relative; margin-top: 0px; max-width: 310px; max-height: 148px; overflow: hidden; }
+
+
+
+#customer-title { width:300px; font-size: 16px; float: left; }
+
+#meta { margin-top: 1px; width: 250px; float: right; }
+#meta td {  text-align: right;  }
+#meta td.meta-head { text-align: left; background: #eee; }
+#meta td textarea { width: 110px; height: 20px; text-align: right; }
+#meta td input { width: 180px; height: 20px; text-align: right; }
+#meta td input#date { width: 140px;  }
+
+#items { clear: both; width: 100%; margin: 30px 0 0 0; border: 1px solid black; }
+#items th { background: #eee; }
+#items textarea { width: 80px; }
+#items tr.item-row td {vertical-align: top; }
+#items td.description {  width: 100%; }
+#items td.description #details {  width: 100%; }
+#items td.item-name { width: 90px; }
+#items td.item-name #task { width: 90px; }
+#items td.description textarea, #items td.item-name textarea { width: 100%; }
+textarea #payment { font-size: 16px; float: left; width: 100%; }
+.info{ margin-top:0; padding-bottom:2px;}
+#items td.total-line { width:40px; padding: 0px 0px 5px 0px; background: #eee; text-align: center; border: 1; }
+#items td.total-value {
+	border-left: 0;
+	padding: 0px 0px 5px 5px;
+	text-align: left;
+	
+}
+#items td.blankbox {
+	border-bottom:hidden !important;
+	border-left:hidden !important;
+	width:300px !important;
+	border-top: medium !important;
+}
+#items td.hiderow { border-top:medium !important; border-bottom:hidden !important; border-left:hidden !important; border-right:hidden !important;
+}
+#items td.payment { height: 20px;  background: none; border: hidden;}
+#items td.balance { background: #eee; }
+#items td.blank { border-left: 1; }
+#items td.blank h4 {   height:10px; }
+#items td.blank textarea {  width:40px;  }
+#terms { text-align: center; margin: 20px 0 0 0; }
+#terms h5 { height: 20px; width: 100%; margin: 0; text-align: center;  font: 16px Helvetica, Sans-Serif; text-decoration: uppercase; letter-spacing: 3px; border-bottom: thin solid #000; padding-bottom:10px; margin-bottom:10px; }
+#terms textarea { width: 100%; text-align:left; word-wrap: break-word; overflow: visable; height:70px;}
+
+textarea:hover, textarea:focus, #items td.total-value textarea:hover, #items td.total-value textarea:focus, .delete:hover {
+	background-color:#FFF;
+	word-wrap: break-word;
+	
+}
+
+.delete-wpr {
+	position: relative;
+	visibility: visible;
+	height: 50px;
+	overflow: visible;
+	line-height: normal;
+}
+.delete { display: block; color: #000; text-decoration: none; position: absolute; font-weight: bold; padding: 01px 0px 0px 0px; top: -6px; left: -22px; font-family: Verdana; font-size: 12px; }
